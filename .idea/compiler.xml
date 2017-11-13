@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eurekaclient" />
         <module name="eurekaserver" />
+        <module name="serice-feign" />
         <module name="service-ribbon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="eurekaclient" target="1.8" />
       <module name="eurekaserver" target="1.8" />
+      <module name="serice-feign" target="1.8" />
       <module name="service-ribbon" target="1.8" />
     </bytecodeTargetLevel>
   </component>
